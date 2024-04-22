@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Website</title>
+    <!--custom css-->
+    <link href="stylesheet.css" type="text/css" rel="stylesheet">
+    <!--font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!--bootstrap link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    
+</head>
+<body>
+
+    <!--header-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand" hreff="#">
+          <img src="./Logo+white.jpg" alt="logo" class="w-50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto mb-2 mg-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#choose">Choose Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#offers">Offers</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link btn text-white bg-dark px-3 rounded-0" href="#footer">Contact Us</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Home-->
+
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item">
+          <img src="./pexels-makeup.webp" class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p class="mt-5 fs-3 text-uppercase">Make Up</p>
+            <h1 class="text-capilatize fw-bolder">Your beauty, Our passion.</h1>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="./pexels-nails.webp" class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p class="mt-5 fs-3 text-uppercase">Nail Maintenance</p>
+            <h1 class="text-capilatize fw-bolder">Beauty is in your hands.</h1>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img src="./pexels-hair.webp" class="d-block w-100 c-img" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p class="mt-5 fs-3 text-uppercase">Hair Maintenance</p>
+            <h1>Another good hair day.</h1>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--Our services-->
+
+    <section class="service-section" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>Our Services</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="service-item text-center">
+              <i class="fas fa-cut service-icon"></i>
+              <h3>Hair Styling</h3>
+              <p>From cuts to colors, we offer a variety of hair styling services to help you achieve your desired look.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item text-center">
+              <i class="fas fa-paint-brush service-icon"></i>
+              <h3>Makeup Artistry</h3>
+              <p>Let our professional makeup artists enhance your natural beauty for any occasion.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item text-center">
+              <i class="fas fa-hand-sparkles service-icon"></i>
+              <h3>Nail Care</h3>
+              <p>Pamper yourself with our luxurious manicure and pedicure services.</p>
+            </div>
+          </div>
+        </div>
+        </section>
+
+        <!--ABOUT US-->
+
+        <div class="about-container" id="about">
+          <div class="about-text">
+              <h2>Welcome to <br><span> Glam Room <br></span></h2>
+              <p>At Glam Room, we believe in the transformative power of beauty. Our skilled professionals are dedicated to providing you with top-notch services that leave you feeling confident and rejuvenated.</p>
+              <p>At Glam Room, we bring the luxury of a professional salon experience directly to your doorstep. Founded with a passion for beauty and a commitment to convenience, our home beauty services are designed to pamper you in the comfort and privacy of your own home.</p>
+              <div class="btn-container">
+                  <a href="#" class="btn-book">Book Now</a>
+                  <a href="#" class="btn-book">Read More</a>
+              </div>
+          </div>
+          <div class="about-image">
+              <img src="./about wallpaper.webp" alt="Beauty Salon">
+          </div>
+      </div>
+
+      <!--WHAT WE DO-->
+
+      <section class="gallery" id="gallery">
+        <h1 class="heading">Our <span>Gallery</span></h1>
+        <div class="box-container">
+
+          <div class="box">
+            <img src="./micro.webp" alt="">
+            <div class="content">
+              <h3>Microblading</h3>
+              <p>R2500</p>
+              <a href="#" class="gallery-btn">Book Here</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="./pe makeup.webp" alt="">
+            <div class="content">
+              <h3>Makeup</h3>
+              <p>Starting from R550</p>
+              <a href="#" class="gallery-btn">Book Here</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="./pe nails.webp" alt="">
+            <div class="content">
+              <h3>Nails</h3>
+              <p>Starting from R200</p>
+              <a href="#" class="gallery-btn">Book Here</a>
+            </div>
+          </div>
+
+          <div class="box-container">
+
+          <div class="box">
+            <img src="./braids.webp" alt="">
+            <div class="content">
+              <h3>Braids</h3>
+              <p>Starting from R350</p>
+              <a href="#" class="gallery-btn">Book Here</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="./wig.webp" alt="">
+            <div class="content">
+              <h3>Wig installation</h3>
+              <p>Starting from R200</p>
+              <a href="#" class="gallery-btn">Book Here</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="./pe barber.webp" alt="">
+            <div class="content">
+              <h3>Hair Cut</h3>
+              <p>Starting from R100</p>
+              <a href="#" class="gallery-btn">Book Here</a>
+            </div>
+          </div>
+          </div>
+
+        </div>
+
+      </section>
+
+    <!--why choose us-->
+
+    <section class="why-choose-us" id="choose">
+      <div class="container">
+        <h2 class="text-dark fw-bold text-center pt-5 pb-5">Why choose Glam room?</h2>
+        </div>
+        <div class="container py-5">
+          <div class="row g-5">
+            <div class="col-12 col-lg-6">
+              <div class="p-3 d-flex shadow-sm section-how-card flex-column justify-content-center rounded">
+                <h3 class="why-choose-us-title">Convenience</h3>
+                <p class="why-choose-us-text">Instead of waiting long lines or having to travel to us because we offer convenience by eliminating the need to travel to a salon. Clients can enjoy treatments in the comfort of their own home, saving time and hassle.</p>
+
+              </div>
+
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <div class="p-3 d-flex shadow-sm section-how-card flex-column justify-content-center rounded">
+                
+                <h3 class="why-choose-us-title">Mobility issues</h3>
+                <p class="why-choose-us-text">For individuals with mobility issues or disabilities, getting to a salon or spa can be challenging. Glam Romm services offer a solution by bringing treatments directly to the individual's residence .</p>
+
+              </div>
+
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <div class="p-3 d-flex shadow-sm section-how-card flex-column justify-content-center rounded">
+                <h3 class="why-choose-us-title">Flexiblity</h3>
+                <p class="why-choose-us-text">With glam room services, you have more flexibility in scheduling appointments. You can often arrange for services outside of regular salon hours, making it easier to fit treatments into your busy schedule.</p>
+
+              </div>
+
+            </div>
+
+            <div class="col-12 col-lg-6">
+              <div class="p-3 d-flex shadow-sm section-how-card flex-column justify-content-center rounded">
+                <h3 class="why-choose-us-title">Special Occassions</h3>
+                <p class="why-choose-us-text">Glam Room services can be particularly appealing for special occasions such as weddings, birthdays, or other events where you want to look your best without the hassle of traveling to a salon.</p>
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!--CALL TO ACTION-->
+    <section class="cta" id="offers">
+      <p>First time customers enjoy</p>
+      <h1>20% OFF</h1>
+      <h5>ALL SERVICES</h5>
+      <a href="" class="hero-btn">CONTACT US</a>
+
+    </section>
+
+
+    <!--FOOTER-->
+    <section id="footer">
+      <div class="footer-content">
+        <div class="logo">
+          <img src="./Logo+white.jpg" alt="">
+        </div>
+        <p>The glam room is a dedicated space where individuals can indulge in self-care rituals, <br> experiment with makeup and hairstyles, and channel their creativity while <br> feeling pampered and glamorous</p>
+        <div class="social-links">
+          <i class="fa-brands fa-square-twitter"></i>
+          <i class="fa-brands fa-square-facebook"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+          <i class="fa-brands fa-square-youtube"></i>
+          <i class="fa-brands fa-square-pinterest"></i>
+        </div>
+      </div>
+
+      <hr>
+      <div class="footer-bottom-content">
+        <p>Designed By <a href="#">GlamRoom</a></p>
+        <div class="copyright">
+          <p>&copy; Copyright <strong>GlamRoom</strong>All Rights Reserved.</p>
+
+        </div>
+
+      </div>
+
+    </section>
+   
+   
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+</body>
+</html>
